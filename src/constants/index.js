@@ -183,7 +183,7 @@ import {
   const projects = [
     {
       name: "Blog App",
-      description:
+      description: 
         "Web-based platform that allows users to post, read, edit and delete blogs, providing a convenient and efficient solution for showcasing your writing skills",
       tags: [
         {
