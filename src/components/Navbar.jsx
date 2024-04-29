@@ -21,7 +21,7 @@ const Navbar = () => {
           window.scrollTo(0,0);
         }}
         >
-          <img src="src/logo.png" alt='logo' className='w-9 h-9 object-contain' />
+          {/* <img src="/src/i.png" alt='logo' className='w-9 h-9 object-contain' /> */}
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Kabir &nbsp; 
             <span className="sm:block hidden">| React developer </span>
