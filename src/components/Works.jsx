@@ -63,7 +63,7 @@ const Works = () => {
     <div className='w-full flex'>
     <motion.p variants={fadeIn("", "", 0.1, 1)}
     className='mt-3 text-seconday text-[17px] max-w-3xl leading-[30px]'>   
-      The showcased projects offer tangible demonstrations of my skills and expertise, presenting real-world instances of my work. Each project is succinctly outlined, accompanied by links to both code repositories and live demos. These examples underscore my proficiency in tackling intricate challenges, adeptness with diverse technologies, and effective project management abilities.
+      The showcased projects offer tangible demonstrations of my skills and expertise, presenting real-world instances of my work. Each project is succinctly outlined, accompanied by link to code repositories. These examples underscore my proficiency in tackling intricate challenges, adeptness with diverse technologies, and effective project management abilities.
     </motion.p>
     </div>
     <div className='mt-20 flex flex-wrap gap-7'>
