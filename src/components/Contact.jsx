@@ -29,7 +29,7 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send('service_pwkrhso', 'template_y02j6q9',{
-      form_name: form.name,
+      from_name: form.name,
       to_name: 'Kabir Kurra',
       from_email: form.email,
       to_email:'kabirkurra13@gmail.com',
