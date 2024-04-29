@@ -75,6 +75,19 @@ const Works = () => {
       />
     ))}
     </div>
+    <motion.p variants={fadeIn("", "", 0.5, 3)}
+    className='mt-7 text-seconday text-[17px] max-w-3xl leading-[30px]'>    
+    Feel free to explore my GitHub for more exciting projects like these! <button
+        type='button'
+        className='bg-tertiary py-3 px-8 outline-none w-fit text-white shadow-md shadow-primary rounded-xl ml-[9px] text-center'
+        onClick={(e) => {
+          e.preventDefault()
+          window.open('https://github.com/20001001054/', '_blank')} }
+      >
+        Github
+    </button>
+    </motion.p>
+   
     </>
   )
 }
