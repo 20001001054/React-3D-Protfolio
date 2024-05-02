@@ -75,7 +75,7 @@ const Works = () => {
       />
     ))}
     </div>
-    <motion.p variants={fadeIn("", "", 0.5, 3)}
+    <motion.p variants={fadeIn("", "", 0.6, 3)}
     className='mt-7 text-seconday text-[17px] max-w-3xl leading-[30px]'>    
     Feel free to explore my GitHub for more exciting projects like these! <button
         type='button'
