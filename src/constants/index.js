@@ -114,13 +114,13 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer Intern",
+      title: "Software Engineer",
       company_name: "Venuelook",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Next.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
