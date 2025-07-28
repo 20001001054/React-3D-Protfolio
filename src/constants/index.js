@@ -44,19 +44,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Engineer",
       icon: mobile,
     },
     {
-      title: "React Developer",
+      title: "Python Developer",
       icon: web,
     },
     {
-      title: "Software Developer",
+      title: "AI Engineer",
       icon: backend,
     },
     {
-      title: "UI/UX Developer",
+      title: "Devops Engineer",
       icon: creator,
     },
   ];
@@ -120,10 +120,13 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Present",
       points: [
-        "Developing and maintaining web applications using Next.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Engineered scalable web scraping tools in Python to collect and enhance venue-related data from diverse web sources across India and Singapore.",
+        "Developed NLP pipelines for semantic search, entity extraction, and query understanding, significantly improving internal tools and user experience.",
+        "Utilized OpenAI APIs and LangChain to automate data categorization, perform text enhancement and generate intelligent suggestions for listings",
+        "Single-handedly resolved a complex server-side rendering issue in Next.js, leading to a 35% reduction in page load times and a 25% increase in user retention on high-traffic pages.",
+        "Integrating and optimizing APIs in a Next.js environment, resulting in a 35% reduction in server response times and a 30% improvement in data retrieval efficiency, enhancing overall application performance",
+        "Developing and managing complex MySQL database queries, streamlining data operations and cutting query execution times by 30%, leading to a 20% improvement in application response time and overall system reliability",
+
       ],
     },
     {
@@ -154,6 +157,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "PropBotix",
+      description:
+        "Developed an AI-driven real estate platform using Next.js, Python, MySQL, and LangChain with LLM for dynamic user interaction. Engineered an intelligent agent pipeline for personalized property recommendations, leveraging vector embeddings, RAG (Retrieval-Augmented Generation), and real-time natural language querying.",
+      tags: [
+        {
+          name: "LLM",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "GenAI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "",
+    },
     {
       name: "Blog App",
       description: 
@@ -196,27 +220,7 @@ import {
       image: jobit,
       source_code_link: "https://github.com/20001001054/Mapty-app",
     },
-    {
-      name: "Recipe App",
-      description:
-        "A user-friendly web application streamlining the cooking process of your favorite dishes. Simply enter the dish name, and you will promptly get the detailed recipe, making cooking easier for you.",
-      tags: [
-        {
-          name: "WebApi",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/20001001054/Recipe-WebApp",
-    },
+    
   ];
   
   export { services, technologies, experiences, projects };
