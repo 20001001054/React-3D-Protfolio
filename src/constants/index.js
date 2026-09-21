@@ -151,7 +151,7 @@ const experiences = [
     company_name: "Venuelook",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jume 2024 - Nov 2025",
+    date: "June 2024 - Nov 2025",
     points: [
       "Engineered scalable web scraping tools in Python to collect and enhance venue-related data from diverse web sources across India and Singapore.",
       "Developed NLP pipelines for semantic search, entity extraction, and query understanding, significantly improving internal tools and user experience.",
