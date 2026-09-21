@@ -2,24 +2,24 @@ import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import {services} from '../constants'
-import {fadeIn, textVariant} from '../utils/motion'
+import { services } from '../constants'
+import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 
-const ServiceCard = ({index, title, icon}) =>{
-  return(
+const ServiceCard = ({ index, title, icon }) => {
+  return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
-      varients={fadeIn("right","spring", 0.5 * index, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+        varients={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
       >
         <div
-        options={{
-          max:45,
-          scale:1,
-          speed: 450
-        }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450
+          }}
+          className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
@@ -31,24 +31,24 @@ const ServiceCard = ({index, title, icon}) =>{
 
 const About = () => {
   return (
- <>
- <motion.div varients={textVariant()}>
-  <p className={styles.sectionSubText}>Introduction</p>
-  <h2 className={styles.sectionHeadText}>Overview.</h2>
- </motion.div>
+    <>
+      <motion.div varients={textVariant()}>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
+      </motion.div>
 
- <motion.p variants={fadeIn("","",0.1,1)}
- className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
- >
- As an adept software developer proficient in JavaScript and frameworks such as React.js and Three.js, I excel in swiftly grasping new concepts and work closely with clients to craft solutions that are both efficient and user-friendly. Let's join forces to transform your ideas into tangible, impactful creations! 
- </motion.p>
-<div className='mt-20 flex flex-wrap gap-10'>
-  {services.map((service, index) => (
-    <ServiceCard key={service.title} index= {index} {...service} />
-  ))}
+      <motion.p variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        With a background in software engineering, I don't just assess risk from a checklist-I understand system architectures, CI/CD pipelines, and developers' mindsets, enabling seamless collaboration between engineering teams and risk stakeholders.
+      </motion.p>
+      <div className='mt-20 flex flex-wrap gap-10'>
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
 
-</div>
- </>
+      </div>
+    </>
   )
 }
 
