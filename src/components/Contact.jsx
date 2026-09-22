@@ -112,7 +112,7 @@ const Contact = () => {
               className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl ml-auto'
               onClick={(e) => {
                 e.preventDefault()
-                window.open('/Kabir.Kurra.Resume.pdf', '_blank')
+                window.open('/Kabir.kurra.Resume.pdf', '_blank')
               }}
             >
               My Resume
